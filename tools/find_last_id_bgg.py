@@ -93,3 +93,7 @@ def find_last_game(low_start, high_start, lookahead=20):
     print(f">>> Temps total : {total_time:.1f}s ({total_time/60:.1f} min)")
     return last_valid
 
+# On sait que 454105 existe, on vise large avec 750000
+#find_last_game(454105, 750000, lookahead=20)
+
+
